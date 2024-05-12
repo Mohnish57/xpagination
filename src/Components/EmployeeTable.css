@@ -1,0 +1,30 @@
+.employee-section {
+  margin: 1rem;
+}
+.employee-section button {
+  background-color: var(--color-primary);
+  padding: 0.3rem;
+  border: none;
+  border-radius: 0.2rem;
+  margin: 0.2rem;
+  color: var(--color-white);
+}
+
+.employee-table {
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid rgb(220, 219, 219);
+  margin-bottom: 1rem;
+}
+.employee-table tbody td {
+  box-shadow: 1px 1px 1px rgb(220, 220, 220);
+  padding: 0.5rem;
+}
+.employee-table thead {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  padding: 1rem;
+}
+
+.employee-table tbody {
+}
