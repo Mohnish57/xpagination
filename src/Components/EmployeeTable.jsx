@@ -12,9 +12,13 @@ const EmployeeTable = () => {
   //   console.log(pageIndex.start);
 
   const fetchData = async () => {
-    const response = await fetch(API_END_POINT);
-    const result = await response.json();
-    setData(result);
+    try {
+      const response = await fetch(API_END_POINT);
+      const result = await response.json();
+      setData(result);
+    } catch (e) {
+      console.log(e);
+    }
   };
 
   const handlePrevious = () => {
