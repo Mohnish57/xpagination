@@ -17,7 +17,7 @@ const EmployeeTable = () => {
       const result = await response.json();
       setData(result);
     } catch (e) {
-      console.log(e);
+      alert(e);
     }
   };
 
